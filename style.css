@@ -5,11 +5,14 @@
 
 body{
     font-family: Noah, Arial, sans-serif;
+    color: #000;
 }
 
 .container{
     margin: 0 auto;
 }
+
+/*   ---   header navigation   ---   */
 
 .header{
     display: flex;
@@ -33,16 +36,11 @@ body{
     font-size: 18px;
     font-weight: 500;
     line-height: 105%;
-    color: #000;
-}
-
-.bold20{
-     
+   
 }
 
 .btn{
     background-color:#FBD727;
-    color: #000;
     line-height: 105%;
     font-size: 18px;
     font-weight: 700;
@@ -52,3 +50,86 @@ body{
     padding: 13px 39px;
     
 }
+
+/*   ---   greetings   ---   */
+
+.title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 105%; 
+    margin-bottom: 18px;
+}
+
+.text26{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 105%; 
+    margin-bottom: 42px;
+}
+
+.try_btn{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 105%;  
+    text-decoration: none;
+    background-color:#FBD727;
+    padding: 15px 45px;
+    border-radius: 5px;
+}
+
+.greetings{
+    margin: 70px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.try_btn_text{
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 105%;
+}
+
+.div_try_btn{
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+/*   ---   features   ---   */
+
+.features{
+    margin-top: 130px;
+}
+
+.ft_title{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.features_item_text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 105%;  
+}
+
+.features_item_desc{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px; 
+    color:#232323;
+    margin-top: 20px;
+}
+
+.features_item_title{
+    display: flex;
+    gap: 1em;
+}
+
+.features_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
