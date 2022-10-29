@@ -18,30 +18,42 @@ body{
     display: flex;
     align-items: center;
     margin-top: 30px;
+    width: 100%;
+    gap: 2em;
+}
+
+.header img{
+    height: 56px;
 }
 
 .container{
    width: 1190px; 
 }
 
-.header_logo{
-    margin-right: 67px;
-}
-
 .nav{
     list-style: none;
     display: flex;
-    gap: 34px;
-    margin-right: 80px;
+    justify-content: space-between;
+    gap: 1em;
     font-size: 18px;
     font-weight: 400;
     line-height: 105%;
-   
+    cursor: pointer;
+    color: #111;
+}
+
+.login{
+    text-decoration: none;
+    font-size: 18px;
+    color: #111;
+    line-height: 105%;
+    cursor: pointer;
+    font-weight: 700;
 }
 
 .btn{
     background-color:#FBD727;
-    color: #000;
+    color: #111;
     line-height: 105%;
     font-size: 18px;
     font-weight: 700;
@@ -49,7 +61,7 @@ body{
     border: none;
     text-decoration: none;
     padding: 13px 39px;
-    
+    cursor: pointer;   
 }
 
 /*   ---   greetings   ---   */
@@ -188,8 +200,8 @@ margin-top: 125px;
 
 .tariffs_table th{
     font-weight: 700;
-    border-bottom: 3px solid #20E2AC;
-    height: 50px;
+    border-bottom: 2px solid #20E2AC;
+    height: 75px;
 }
 
 .tariffs_table td:first-child{
@@ -199,8 +211,8 @@ margin-top: 125px;
 }
 
 .tariffs_table td{
-    height: 50px;
-    border-bottom: 3px solid #20E2AC;
+    height: 75px;
+    border-bottom: 2px solid #20E2AC;
 }
 
 caption{
@@ -208,7 +220,7 @@ caption{
     margin-top: 30px;
     text-align: left;
     font-size: 24px;
-    line-height: 105%; 
+    line-height: 150%; 
 }
 
 /*   ---   contacts   ---   */
@@ -266,6 +278,10 @@ caption{
     align-items: center;
     height: 117px;
     border-top: 1px solid #3B3B3B;
+}
+
+.footer img{
+    height: 56px;
 }
 
 .footer_nav a{
