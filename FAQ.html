@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/noah.css">
+
+</head>
+<body>
+
+<script src="jQuery.js"></script>
+<div class="FAQ">
+    <section>
+        <dl class="faq">
+            <dt>Не подключается аккаунт в телеграмм</dt>
+            <dd>Напишите нам на почту</dd>
+            <dt>Не подключается аккаунт в инстаграмм</dt>
+            <dd>Погуглите</dd>
+            <dt>пропала автарка подключенного аккаунта</dt>
+            <dd>обновить или переподключить аккаунт</dd>
+        </dl>
+    </section>
+    <script>
+        jQuery(document).ready(function($) {
+
+        $(".faq dt").on('click', function(){
+            /*скрываем все, кроме того, что будет открыто*/
+            $('.faq dd').not($(this).next()).slideUp(500)
+            /*открываем аккардеон*/
+            $(this).next('dd').slideToggle(500);
+        })
+
+        });
+    </script>
+</div>
+
+
+</body>
+</html>
